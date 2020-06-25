@@ -143,7 +143,7 @@
                                     </tr>
                                     <tr>
                                         <th>Total:</th>
-                                        <td class="text-right">{{ round($order->total) }} Taka</td>
+                                        <td class="text-right">{{ round($order->total,2) }} Taka</td>
                                     </tr>
                                 </table>
                             </div>
